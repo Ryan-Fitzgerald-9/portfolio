@@ -18,6 +18,26 @@ const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink })
                 ))}
             </p>
             <p className='text-sm md:text-base mb-2 md:mb-3 font-semibold pt-2'>{description}</p>
+            <div className='flex justify-center gap-8'>
+                <a 
+                    href={githubLink} 
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='px-2 py-1 font-semibold border-[1px] border-stone-800 rounded-md'
+                >
+                    Github
+                </a>
+                {appLink && (
+                    <a 
+                    href={appLink} 
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='px-2 py-1 font-semibold border-[1px] border-stone-800 rounded-md'
+                    >
+                    Demo
+                    </a>
+                )}
+            </div>
         </div>
     </div>
   )

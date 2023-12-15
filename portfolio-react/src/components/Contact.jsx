@@ -2,13 +2,14 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='mt-20 flex flex-col mb-10 mx-auto'>
-      <div className='flex justify-center items-center'>
-        {/* <h3 className='flex flex-col'>Contact Me</h3> */}
+    <div id="contact" className='pt-20 flex flex-col mx-auto'>
+      <div className='flex flex-col items-center'>
+        <h3 className='text-3xl md:text-4xl mb-4 font-bold'>Contact Me</h3>
         <form 
+          //input location for post
           action=""
           method='POST'
-          className='flex flex-col w-full md:w-7/12'
+          className='flex flex-col px-4 w-full md:w-7/12 mb-[100px]'
         >
             <input 
                 type="text"
