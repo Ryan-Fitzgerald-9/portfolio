@@ -25,7 +25,7 @@ export default [
     },
     {
         title: 'SNAKE',
-        imgUrl: '/assets/snake.png',
+        imgUrl: '/assets/Snake_game2.mp4',
         stack: ['Javascript', 'CSS3', 'HTML5'],
         description: 'a retro-style version of the mobile game Snake.',
         githubLink: 'https://github.com/Ryan-Fitzgerald-9/Project-1-SNAKE',
