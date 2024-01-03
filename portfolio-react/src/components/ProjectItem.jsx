@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink }) => {
   return (
-    <div className='group border-2 border-stone-800 rounded-md overflow-hidden mx-5 shadow-lg shadow-stone-500/50 relative'>
+    <div className='border-2 min-w-[300px] border-stone-800 rounded-md overflow-hidden mx-auto shadow-lg shadow-stone-500/50 relative'>
       <video 
         autoPlay
         loop
