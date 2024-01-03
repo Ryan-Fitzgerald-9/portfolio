@@ -30,7 +30,7 @@ const About = () => {
           </div>
       </div>
       <div className='pl-[50px] mt-[150px]'>
-         <img className='object-cover w-[300px] h-[300px] rounded-full' src="/assets/prof_pic.png" alt="my picture" />
+         <img className='object-cover w-[270px] h-[270px] rounded-full' src="/assets/prof_pic.png" alt="my picture" />
       </div>
     </div>
   )
