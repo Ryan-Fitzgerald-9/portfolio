@@ -1,7 +1,7 @@
 export default [
     {
         title: 'UpNxt',
-        imgUrl: '/assets/upnxt.png',
+        imgUrl: '/assets/Upnxt.mp4',
         stack: ['Javascript', 'Tailwind CSS', 'React', 'Python', 'Django', 'PostreSQL'],
         description: 'A mock Netflix style app where users can see where movies are streaming, filter based service, and save/remove favorites',
         githubLink: 'https://github.com/Ryan-Fitzgerald-9/UpNxt',

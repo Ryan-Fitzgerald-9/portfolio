@@ -8,7 +8,7 @@ const About = () => {
           <h1 className='text-4xl md:text-6xl mb-1 md:mb-3 font-bold'>Hi there, I'm Ryan!</h1>
           <p className='text-2xl md:text-3xl mb-3 font-medium text-yellow-500'>Former Senior Accountant turned Software Engineer</p>
           <p className='text-lg text-gray-400 max-w-3xl mb-6 font-bold'>I'm a self-motivated software engineer located in Blackstone, MA who enjoys solving challenging programming problems and debugging code. My 10+ years as an accountant enables me to approach projects with high attention to detail, process improvement ideas, and an organizational mindset. After achieving my Software Engineering Immersive Certificate from General Assembly, I'm now ready for new opportunities as a developer.</p>
-          <div className="flex ml-4 md:ml-16 space-x-10 hover:cursor-pointer">
+          <div className="flex justify-center ml-4 md:ml-16 space-x-10 hover:cursor-pointer">
                 <a 
                   href="https://github.com/Ryan-Fitzgerald-9" 
                   target="_blank" 
