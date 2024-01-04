@@ -30,7 +30,7 @@ export default [
         type: 'framework'
     },
     {
-        title: 'Express & Node.js',
+        title: 'Node.js',
         imgLoc: '/assets/nodejs.png',
         type: 'framework'
     },
@@ -55,8 +55,18 @@ export default [
         type: 'database'
     },
     {
-        title: 'JSON API',
-        imgLoc: '/assets/jsonapi.png',
+        title: 'JSON & REST API',
+        imgLoc: '/assets/jsonrestapi.png',
+        type: 'other'
+    },
+    {
+        title: 'Express',
+        imgLoc: '/assets/express.png',
+        type: 'framework'
+    },
+    {
+        title: 'Thunderclient',
+        imgLoc: '/assets/thunderclient.png',
         type: 'other'
     }    
 ]

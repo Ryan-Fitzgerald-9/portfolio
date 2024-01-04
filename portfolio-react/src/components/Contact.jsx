@@ -6,7 +6,7 @@ const Contact = () => {
     <div id="contact" className='py-20 px-[30px] text-white flex flex-col mx-auto'>
       <div className='flex flex-col items-center'>
         <h3 className='text-3xl md:text-4xl mb-8 font-bold'>Contact Me</h3>
-        <p className='text-lg md:text-xl'>If you would like to work together or have any questions, please reach out!</p>
+        <p className='text-gray-400 text-lg md:text-xl'>If you would like to work together or have any questions, please reach out!</p>
         <div className="flex justify-center items-center space-x-10 my-8 hover:cursor-pointer">
           <a 
             href="mailto:rfitzgerald806@gmail.com" 

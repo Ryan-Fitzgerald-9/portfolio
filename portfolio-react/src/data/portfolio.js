@@ -2,7 +2,7 @@ export default [
     {
         title: 'UpNxt',
         imgUrl: '/assets/Upnxt.mp4',
-        stack: ['Javascript', 'Tailwind CSS', 'React', 'Python', 'Django', 'PostreSQL'],
+        stack: ['Javascript', 'Tailwind CSS', 'React', 'Python', 'Django', 'PostgreSQL'],
         description: 'A mock Netflix style app where users can see where movies are streaming, filter based service, and save/remove favorites',
         githubLink: 'https://github.com/Ryan-Fitzgerald-9/UpNxt',
         appLink: ''
@@ -18,7 +18,7 @@ export default [
     {
         title: 'NFL Team Tracker',
         imgUrl: '/assets/NFLtracker.mp4',
-        stack: ['Javascript', 'CSS3', 'HTML5', 'MondgoDB'],
+        stack: ['Javascript', 'CSS3', 'HTML5', 'MongoDB'],
         description: 'An app where you can keep updates on your favorite team, for this demo I created a page for the New England Patriots (25 players from the offense)',
         githubLink: 'https://github.com/Ryan-Fitzgerald-9/NFL-Team-Tracker',
         appLink: ''
