@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink }) => {
   return (
-    <div className='border-2 min-w-[300px] border-stone-800 rounded-md overflow-hidden mx-auto shadow-lg shadow-stone-500/50 relative'>
+    <div className='border-2 min-w-[300px] max-w-[400px] border-stone-800 rounded-md overflow-hidden mx-auto shadow-lg shadow-stone-500/50 relative'>
       <video 
         autoPlay
         loop
@@ -13,7 +13,7 @@ const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink })
         <source src={imgUrl} type='video/mp4' />
         Your browser does not support the video tag.
       </video>
-      <div className='absolute top-0 left-0 w-full h-[255px] flex flex-col justify-center items-center opacity-0 hover:opacity-100 transition-opacity bg-black bg-opacity-80 p-4 text-white'>
+      <div className='absolute top-0 left-0 w-full h-[255px] flex flex-col justify-center items-center opacity-0 hover:opacity-100 transition-opacity bg-black bg-opacity-90 p-4 text-white'>
         <p className='text-sm md:text-base mb-2 md:mb-3 font-semibold pt-2'>{description}</p>
       </div>
       <div className='w-full p-4'>
