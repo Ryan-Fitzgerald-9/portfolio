@@ -17,7 +17,7 @@ export default [
     },
     {
         title: 'NFL Team Tracker',
-        imgUrl: '/assets/nfl-team-tracker.png',
+        imgUrl: '/assets/NFLtracker.mp4',
         stack: ['Javascript', 'CSS3', 'HTML5', 'MondgoDB'],
         description: 'An app where you can keep updates on your favorite team, for this demo I created a page for the New England Patriots (25 players from the offense)',
         githubLink: 'https://github.com/Ryan-Fitzgerald-9/NFL-Team-Tracker',
