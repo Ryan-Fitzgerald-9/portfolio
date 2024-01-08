@@ -26,7 +26,7 @@ const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink })
         <p className='text-sm md:text-base mb-2 md:mb-3 font-semibold pt-2'>{description}</p>
       </div>
       <div className='w-full p-4'>
-        <h3 className='flex justify-center text-xl md:text-2xl mb-2 md:mb-3 font-semibold text-yellow-500'>{title}</h3>
+        <h3 className='flex justify-center text-xl md:text-2xl mb-2 md:mb-3 font-bold text-yellow-500'>{title}</h3>
         <div className='flex flex-wrap gap-2 items-center justify-center mb-4'>
           {stack.map((item) => getTechIcon(item))}
         </div>
