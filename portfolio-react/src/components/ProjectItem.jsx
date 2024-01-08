@@ -17,7 +17,7 @@ const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink })
         loop
         muted
         playsInline
-        className='w-full h-[180px] md:h-[240px] object-cover transition-transform transform hover:scale-110' 
+        className='w-[300px] md:w-full h-[180px] md:h-[240px] object-cover transition-transform transform hover:scale-110' 
       >
         <source src={imgUrl} type='video/mp4' />
         Your browser does not support the video tag.

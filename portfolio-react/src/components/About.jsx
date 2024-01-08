@@ -29,8 +29,8 @@ const About = () => {
                 </a>
           </div>
       </div>
-      <div className='mb-[50px] md:mt-[150px] md:ml-4'>
-         <img className='object-cover min-w-[270px] h-[270px] rounded-full' src="/assets/prof_pic.png" alt="my picture" />
+      <div className='mb-[50px] md:mt-[150px] md:ml-4 md:text-center'>
+         <img className='object-cover min-w-[270px] h-[270px] rounded-full mx-auto md:mx-0' src="/assets/prof_pic.png" alt="my picture" />
       </div>
     </div>
   )
