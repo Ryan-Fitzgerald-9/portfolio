@@ -11,7 +11,7 @@ export default [
         title: 'Visit Seattle',
         imgUrl: '/assets/Visitseattle.mp4',
         stack: ['Javascript', 'CSS3', 'MongoDB', 'Express', 'React', 'Node.js'],
-        description: 'Group project where you can experience all the city has to offer! Browse for restaurants, activities, and lodging. Or, if you unsure about what to do, take our short quiz to get ideas!',
+        description: 'A group project app (MERN stack) for Seattle visitors where users can browse for restaurants, activities, and lodging - even take a quiz to chose an option. There is also an admin page allowing full front/backend CRUD.',
         githubLink: 'https://github.com/annemarielewis/Visit_Seattle',
         appLink: ''
     },
