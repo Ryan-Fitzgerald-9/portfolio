@@ -46,7 +46,7 @@ const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink })
               rel='noopener noreferrer'
               className='px-2 py-1 font-semibold border-[1px] border-stone-200 hover:bg-orange-700 rounded-md'
             >
-              Demo
+              App
             </a>
           )}
         </div>
