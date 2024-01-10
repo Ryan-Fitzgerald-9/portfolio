@@ -5,7 +5,7 @@ const ProjectItem = ({ title, imgUrl, stack, description, githubLink, appLink })
   const getTechIcon = (techTitle) => {
     const techItem = techIcons.find((item) => item.title === techTitle)
     if (techItem) {
-      return <img key={techTitle} src={techItem.imgLoc} alt={techTitle} className="w-8 h-8 md:w-[50px] md:h-[50px]" />
+      return <img key={techTitle} src={techItem.imgLoc} alt={techTitle} className="w-9 h-9 md:w-[50px] md:h-[50px]" />
     }
     return null
   }
