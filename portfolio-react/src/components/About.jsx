@@ -30,8 +30,8 @@ const About = () => {
                 <a 
                   href="/assets/Ryan_Fitzgerald_Resume_2024.pdf" 
                   target="_blank" 
-                  download
                   className='flex items-center px-2 py-1 font-semibold border-[1px] border-stone-200 hover:bg-orange-700 rounded-md'
+                  download
                 >
                     <FaFilePdf className='mr-2'/>
                     Resume
