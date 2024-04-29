@@ -68,5 +68,15 @@ export default [
         title: 'Thunderclient',
         imgLoc: '/assets/thunderclient.png',
         type: 'other'
+    },
+    {
+        title: 'Firebase Auth',
+        imgLoc: '/assets/firebaseauth2.png',
+        type: 'other'
+    },
+    {
+        title: 'Firestore Db',
+        imgLoc: '/assets/firestore.png',
+        type: 'database'
     }    
 ]

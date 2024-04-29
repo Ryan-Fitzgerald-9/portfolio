@@ -2,10 +2,10 @@ export default [
     {
         title: 'UpNxt',
         imgUrl: '/assets/Upnxt.mp4',
-        stack: ['Javascript', 'Tailwind CSS', 'React', 'Python', 'Django', 'PostgreSQL'],
-        description: 'A mock Netflix style app where users can see where movies are streaming, filter based service, and save/remove favorites.',
+        stack: ['Javascript', 'Tailwind CSS', 'React', 'Firebase Auth', 'Firestore Db'],
+        description: 'A Netflix clone app where users can see movies details, sign-up/login, and save/remove favorites.',
         githubLink: 'https://github.com/Ryan-Fitzgerald-9/UpNxt',
-        appLink: ''
+        appLink: 'https://upnxt-react.web.app/'
     },
     {
         title: 'Visit Seattle',

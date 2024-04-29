@@ -39,7 +39,7 @@ const About = () => {
           </div>
       </div>
       <div className='mb-[50px] md:mt-[150px] md:ml-4 md:text-center'>
-         <img className='object-cover min-w-[270px] h-[270px] rounded-full mx-auto md:mx-0' src="/assets/prof_pic.png" alt="my picture" />
+         <img className='object-cover min-w-[270px] h-[270px] rounded-full mx-auto md:mx-0' src="/assets/dev_img.png" alt="my picture" />
       </div>
     </div>
   )
